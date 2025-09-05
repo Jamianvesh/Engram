@@ -55,6 +55,7 @@ Engram is a small step toward ensuring *inclusive and equitable quality educatio
 Below are the steps to use the app. 
 
 ### Step 1: Download the app using .apk file
+ (https://github.com/Jamianvesh/Engram/releases/download/v1.0.0/app-release.apk)
 
 ### Step 2: Open the app. You see the description of app like this :
  <img src="photos/p1.jpg" alt="App Screenshot" width="300" height="550"/>
