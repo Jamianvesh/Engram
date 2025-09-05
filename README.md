@@ -68,6 +68,7 @@ Below are the steps to use the app.
 ### Step 5: Home Screen  
 In the home page shows three main options at the bottom **Repository**, **Grammar**, and **Stories**.  
 Here it is on repository option so you'll see all the classes from 1-12 where you can choose one of the classes to study.
+
  <img src="photos/p4.jpg" alt="App Screenshot" width="300" height="550"/>
 
 ### Step 6: Repository Section  
