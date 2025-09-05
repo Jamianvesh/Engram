@@ -41,6 +41,7 @@ dependencies:
   firebase_auth: ^6.0.1
   cloud_firestore: ^6.0.1
   url_launcher: ^6.1.10
+  syncfusion_flutter_pdfviewer: ^31.1.17
 
 dev_dependencies:
   flutter_test:

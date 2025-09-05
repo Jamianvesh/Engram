@@ -210,8 +210,7 @@ class _login_register_ScreenState extends State<login_register_Screen>
                         ),
                         const SizedBox(height: 15),
                         Text(
-                          "Start your English journey today! with\n"
-                          "Engram - Where English comes alive ..\n",
+                          "Start your English journey today! with Engram - Where English comes alive ..",
                           textAlign: TextAlign.center,
                           style: GoogleFonts.poppins(
                             fontSize: 18,

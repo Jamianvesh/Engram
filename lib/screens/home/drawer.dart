@@ -26,7 +26,7 @@ class AppDrawer extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const SizedBox(height: 8),
+                  const SizedBox(height: 6),
                   CircleAvatar(
                     radius: 40,
                     backgroundImage: AssetImage("assets/images/logo.jpg"),

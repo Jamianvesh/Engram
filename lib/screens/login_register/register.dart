@@ -115,7 +115,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: true, // important for keyboard push-up
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(
         title: const Text("Sign Up"),
         backgroundColor: Colors.blue,
@@ -134,8 +134,8 @@ class _RegisterPageState extends State<RegisterPage> {
             child: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
               padding: EdgeInsets.only(
-                left: 20,
-                right: 20,
+                left: 25,
+                right: 25,
                 bottom: MediaQuery.of(context).viewInsets.bottom + 20,
               ),
               child: Column(
@@ -155,7 +155,6 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   const SizedBox(height: 30),
 
-                  // Username
                   Center(
                     child: SizedBox(
                       width: 300,
@@ -167,7 +166,6 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   const SizedBox(height: 18),
 
-                  // Email
                   Center(
                     child: SizedBox(
                       width: 300,
@@ -179,7 +177,6 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   const SizedBox(height: 18),
 
-                  // Password
                   Center(
                     child: SizedBox(
                       width: 300,
@@ -206,7 +203,6 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   const SizedBox(height: 18),
 
-                  // Confirm Password
                   Center(
                     child: SizedBox(
                       width: 300,
@@ -288,12 +284,11 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   const SizedBox(height: 20),
 
-                  // Already have account
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const Text(
-                        "Already have an account? ",
+                        "Already have an account?",
                         style: TextStyle(color: Colors.white, fontSize: 18),
                       ),
                       GestureDetector(

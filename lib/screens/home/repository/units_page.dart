@@ -4,6 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:pro/widget/appbar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'pdf_view_page.dart';
+
 class UnitsPage extends StatelessWidget {
   final int classNumber;
 
@@ -14,15 +16,11 @@ class UnitsPage extends StatelessWidget {
     return match != null ? int.parse(match.group(0)!) : 0;
   }
 
-  Future<void> _openTextbook(String url) async {
-    final Uri docsUrl = Uri.parse(
-      "https://docs.google.com/gview?embedded=true&url=$url",
+  Future<void> _openTextbook(BuildContext context, String url) async {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => PdfViewPage(pdfUrl: url)),
     );
-    if (await canLaunchUrl(docsUrl)) {
-      await launchUrl(docsUrl, mode: LaunchMode.externalApplication);
-    } else {
-      throw "Could not open textbook link";
-    }
   }
 
   Future<void> _openYoutube(String url) async {
@@ -143,8 +141,10 @@ class UnitsPage extends StatelessWidget {
                                       fontWeight: FontWeight.w500,
                                     ),
                                   ),
-                                  onTap: () =>
-                                      _openTextbook(chapterData["Textbook"]),
+                                  onTap: () => _openTextbook(
+                                    context,
+                                    chapterData["Textbook"],
+                                  ),
                                 ),
                               if (chapterData["Youtube link"] != null)
                                 ListTile(
