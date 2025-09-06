@@ -58,46 +58,46 @@ Below are the steps to use the app.
  (https://github.com/Jamianvesh/Engram/releases/download/v1.0.0/app-release.apk)
 
 ### Step 2: Open the app. You see the description of app like this :
- <img src="photos/p1.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p1.jpeg" alt="App Screenshot" width="300" height="550"/>
 
 ### Step 3 : When you enter "get started" button, you can either *Login* or *Register* for a new account. : 
- <img src="photos/p2.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p2.jpeg" alt="App Screenshot" width="300" height="550"/>
 
 ### Step 4: You will see something like this after successfully login. Click on "Go to Home", to get all resources.
- <img src="photos/p3.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p3.jpeg" alt="App Screenshot" width="300" height="550"/>
 
 ### Step 5: Home Screen  
 In the home page shows three main options at the bottom **Repository**, **Grammar**, and **Stories**.  
 Here it is on repository option so you'll see all the classes from 1-12 where you can choose one of the classes to study.
 
- <img src="photos/p4.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p4.jpeg" alt="App Screenshot" width="300" height="550"/>
 
 ### Step 6: Repository Section  
 Navigate through **Classes -> units(chapters)**. Each chapter contains:  
 - Textbook link (PDFs)  
 - YouTube video explanations
- <img src="photos/p5.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p5.jpeg" alt="App Screenshot" width="300" height="550"/>
 
 ### Step 7: Stories Section  
 Stories section is again divided into **Easy, Medium, and Hard** categories.
 
- <img src="photos/p6.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p6.jpeg" alt="App Screenshot" width="300" height="550"/>
 
 ### Step 8:
 Each level has **stories with morals** to learn English through reading.
 On clicking a story you'll see like this.
 
- <img src="photos/p7.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p7.jpeg" alt="App Screenshot" width="300" height="550"/>
  
 ### Step 9: Grammar Section  
 When you go to grammar section,you get a page that
 Covers all grammar topics such as *Nouns, Pronouns, Verbs, etc.* 
 
- <img src="photos/p8.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p8.jpeg" alt="App Screenshot" width="300" height="550"/>
  
 
 ### Step 10 : On clicking any one topic(let's say "Agreement").
- <img src="photos/p9.jpg" alt="App Screenshot" width="300" height="550"/>
+ <img src="photos/p9.jpeg" alt="App Screenshot" width="300" height="550"/>
 Each topic includes:
 - Title, and Description  
 - YouTube video link  
@@ -105,7 +105,7 @@ Each topic includes:
 
 
 ### Step 11: Profile Section  
-  <img src="photos/p10.jpg" alt="App Screenshot" width="300" height="550"/>
+  <img src="photos/p10.jpeg" alt="App Screenshot" width="300" height="550"/>
 In the profile, you can:
 - Update Username  
 - Change password  
