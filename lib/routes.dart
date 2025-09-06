@@ -4,11 +4,9 @@ import 'package:pro/screens/home/profile/profile.dart';
 import 'package:pro/screens/login_register/login.dart';
 import 'package:pro/screens/login_register/login_register.dart';
 import 'package:pro/screens/login_register/register.dart';
-import 'package:pro/screens/opening_page.dart';
 import 'package:pro/screens/welcome.dart';
 
 final Map<String, WidgetBuilder> appRoutes = {
-  '/': (context) => const OpeningScreen(),
   '/login_register': (context) => const login_register_Screen(),
   '/register': (context) => const RegisterPage(),
   '/login': (context) => const LoginPage(),

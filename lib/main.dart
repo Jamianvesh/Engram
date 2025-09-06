@@ -1,9 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:pro/screens/opening_page.dart';
 
 import 'firebase/firebase_options.dart';
 import 'routes.dart';
+import 'screens/welcome.dart'; // <-- WelcomePage
 import 'theme.dart';
 
 void main() async {
@@ -40,17 +42,13 @@ class AuthWrapper extends StatelessWidget {
             body: Center(child: CircularProgressIndicator()),
           );
         }
+
         if (snapshot.hasData) {
-          return Navigator(
-            onGenerateRoute: (settings) => MaterialPageRoute(
-              builder: (_) => appRoutes['/welcome']!(context),
-            ),
-          );
+          // ✅ Already logged in → WelcomePage
+          return const WelcomePage();
         } else {
-          return Navigator(
-            onGenerateRoute: (settings) =>
-                MaterialPageRoute(builder: (_) => appRoutes['/']!(context)),
-          );
+          // ❌ Not logged in → OpeningScreen
+          return const OpeningScreen();
         }
       },
     );
