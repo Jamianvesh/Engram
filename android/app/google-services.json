@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523034715180",
+    "project_id": "engram-45df6",
+    "storage_bucket": "engram-45df6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523034715180:android:5cbe01ead118937bda9d89",
+        "android_client_info": {
+          "package_name": "com.example.pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwztlESQbfeHoyiHoo8Q3bK7D67HBAhlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
