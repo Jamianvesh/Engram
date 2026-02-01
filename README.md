@@ -2,16 +2,6 @@
 
 ---
 
-## 👥 Team Members
-- Anvesh        -CS24B016
-- Akshaya Sri   -CS24B035 
-- Sreeja Raj    -CS24B030
-- Dakshayani    -CS21B016 
-- Vishnu Bachu  -CS24B004
-- Mann Kamble   -CS24B023 
-
----
-
 ## 🛠 Languages / Tools Used
 - *Languages & Frameworks:* Dart , Flutter 
 - *Backend :* Firebase
@@ -28,13 +18,6 @@
 - *Chatgpt*(Code enhancement & debugging)
 - *GitBash*(To push project to git hub)
   
----
-
-## 👩‍💻 Contributions
-- *Frontend Development:* Anvesh, Vishnu, Mann  
-- *Backend Development:* Anvesh, Akshaya, Sreeja, Dakshayani  
-- *Resources Collection (YouTube links, stories, textbooks, grammar topics):* All team members  
-
 ---
 
 ## 📖 About the App
